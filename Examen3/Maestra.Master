@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Maestra.Master.cs" Inherits="Examen3.Inicio" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="CSS/Menu.css">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="subnav">
+    
+      <asp:Button ID="Button1" class="subnavbtn" runat="server" Text="Usuarios" OnClick="Button1_Click" />
+    </div>
+  
+  <div class="subnav">
+    
+      <asp:Button ID="Button2" class="subnavbtn" runat="server" Text="Vehiculos" OnClick="Button2_Click" />
+    </div>
+  
+  <div class="subnav">
+    
+      <asp:Button ID="Button3" class="subnavbtn" runat="server" Text="Reporte" OnClick="Button3_Click" />
+  </div>
+             <div class="subnav">
+    
+      <asp:Button ID="Button4" class="subnavbtn" runat="server" Text="Inicio" OnClick="Button4_Click" />
+  </div>
+  
+        
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+             
+    </form>
+</body>
+</html>
